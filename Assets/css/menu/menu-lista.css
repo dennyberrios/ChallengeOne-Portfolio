@@ -1,0 +1,14 @@
+.menu__lista {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .menu__lista {
+        display: flex;
+    }
+}
+
+
+/* @media (min-width: 768px) {}
+
+@media (max-width: 425px) {} */

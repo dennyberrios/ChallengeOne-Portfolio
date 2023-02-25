@@ -1,0 +1,16 @@
+:root {
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-texto: #464646;
+    --font-raleway: 'Raleway';
+}
+
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: var(--font-raleway);
+    color: var(--cor-de-texto);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
