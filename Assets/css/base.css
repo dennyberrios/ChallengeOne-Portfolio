@@ -1,6 +1,9 @@
 :root {
     --cor-de-fundo: #F5F5F5;
+    --cor-de-card: #FFFFFF;
+    --cor-de-fundo-azul-claro: #EAF2FD;
     --cor-de-texto: #464646;
+    --cor-de-borda-botao: #2A7AE4;
     --font-raleway: 'Raleway';
 }
 

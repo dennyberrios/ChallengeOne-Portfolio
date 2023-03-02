@@ -1,0 +1,9 @@
+.sobre__container {
+    max-width: 80vw;
+}
+
+@media (max-width: 420px) {
+    .sobre__container {
+        max-width: 100%;
+    }
+}

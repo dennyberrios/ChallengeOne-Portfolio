@@ -1,0 +1,9 @@
+.form-contato__texto {
+    margin-left: 1rem;
+}
+
+@media (max-width: 1160px) {
+    .form-contato__texto {
+        margin: 0px;
+    }
+}

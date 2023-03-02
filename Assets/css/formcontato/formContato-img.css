@@ -1,0 +1,10 @@
+.form-contato__img {
+    width: 464px;
+    height: 593px;
+}
+
+@media (max-width: 1160px) {
+    .form-contato__img{
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+@media (max-width: 425px) {
+    .titulo {
+        justify-content: start;
+    }
+}

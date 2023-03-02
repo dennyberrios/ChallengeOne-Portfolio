@@ -1,0 +1,17 @@
+.titulo__subsessao {
+    font-weight: 400;
+    font-size: 1.37rem;
+    width: 90%;
+}
+
+@media (max-width: 768px) {
+    .titulo__subsessao {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .titulo__subsessao {
+        width: 100%;
+    }
+}

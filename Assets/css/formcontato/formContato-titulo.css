@@ -1,0 +1,13 @@
+.form-contato__titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: .5rem;
+}
+
+@media (max-width: 768px) {
+    .form-contato__titulo {
+        font-size: 22px;
+        line-height: 26px;
+    }
+}

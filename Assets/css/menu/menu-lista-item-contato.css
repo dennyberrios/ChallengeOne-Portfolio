@@ -2,3 +2,9 @@
     font-weight: 700;
     font-size: 1rem;
 }
+
+@media (max-width: 420px) {
+    .menu__lista__item__contato {
+        font-weight: 400;
+    }
+}

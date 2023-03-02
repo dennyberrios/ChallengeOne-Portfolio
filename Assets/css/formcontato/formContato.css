@@ -1,0 +1,13 @@
+.form-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    background-color: var(--cor-de-fundo-azul-claro);
+}
+
+@media (max-width: 420px) {
+    .form-contato {
+        padding: 1rem;
+    }
+}

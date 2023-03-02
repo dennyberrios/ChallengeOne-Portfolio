@@ -1,0 +1,13 @@
+.titulo__container {
+    max-width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 425px) {
+    .titulo__container {
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,5 @@
+.formacao__cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

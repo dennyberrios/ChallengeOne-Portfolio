@@ -1,0 +1,13 @@
+.experiencia__texto {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .experiencia__texto {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

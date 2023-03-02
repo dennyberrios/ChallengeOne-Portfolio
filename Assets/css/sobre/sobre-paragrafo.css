@@ -1,0 +1,14 @@
+.sobre__paragrafo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .sobre__paragrafo {
+        font-size: 1rem;
+    }
+}

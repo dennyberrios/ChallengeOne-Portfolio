@@ -1,0 +1,23 @@
+.titulo__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78%;
+}
+
+@media (max-width: 768px) {
+    .titulo__div {
+        align-items: start;
+        justify-content: start;
+    }
+}
+
+@media (max-width: 425px) {
+    .titulo__div {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+        padding: 0 10px;
+    }
+}

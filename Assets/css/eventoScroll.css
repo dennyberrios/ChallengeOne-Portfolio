@@ -1,0 +1,17 @@
+[date-anime] {
+    opacity: 0;
+    transition: .9s;
+}
+
+[date-anime="transitionTop"] {
+    transform: translate3d(0, -100px, 0);
+}
+
+[date-anime="transitionBottom"] {
+    transform: translate3d(0, 100px, 0);
+}
+
+[date-anime].transition {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}

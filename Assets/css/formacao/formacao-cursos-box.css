@@ -1,0 +1,10 @@
+.formacao__cursos__box {
+    margin: 1rem;
+}
+
+@media (max-width: 575px) {
+    .formacao__cursos__box {
+        margin: 0rem;
+        margin: 1rem 0;
+    }
+}

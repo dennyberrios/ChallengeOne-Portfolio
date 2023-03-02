@@ -1,0 +1,9 @@
+.titulo__network {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .titulo__network {
+        flex-wrap: wrap;
+    }
+}

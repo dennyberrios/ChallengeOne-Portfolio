@@ -1,0 +1,40 @@
+.formacao__cursos__item__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    width: 308px;
+    height: 226px;
+    background-color: var(--cor-de-card);
+    border-radius: 5px;
+}
+
+.formacao__cursos__item__img1 {
+    width: 315px;
+    height: 120px;
+}
+
+@media (max-width: 768px) {
+    .formacao__cursos__item__img {
+        width: 224px;
+        height: 118px;
+    }
+
+    .formacao__cursos__item__img1 {
+        width: 180px;
+        height: 90px;
+    }
+
+    .formacao__cursos__item__img2 {
+        width: 180px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 420px) {
+    .formacao__cursos__item__img {
+        width: 296px;
+        height: 118px;
+    }
+}

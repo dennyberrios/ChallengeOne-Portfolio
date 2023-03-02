@@ -1,0 +1,25 @@
+.hobbies__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+
+    width: 176px;
+    height: 174px;
+    background-color: var(--cor-de-card);
+    margin: 16px;
+}
+
+@media (max-width: 768px) {
+    .hobbies__box {
+        width: 224px;
+        height: 118px;
+    }
+}
+
+@media (max-width: 420px) {
+    .hobbies__box {
+        width: 156px;
+    }
+}

@@ -1,0 +1,29 @@
+.experiencia__box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1050px) {
+    .experiencia__box {
+        width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .experiencia__box {
+        width: 704px;
+    }
+}
+
+@media (max-width: 704px) {
+    .experiencia__box {
+        width: 420px;
+    }
+}
+
+@media (max-width: 420px) {
+    .experiencia__box {
+        width: 296px;
+    }
+}

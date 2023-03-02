@@ -1,0 +1,15 @@
+.sobre__titulo {
+    width: 166px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .sobre__titulo {
+        font-size: 1.37rem;
+    }
+}

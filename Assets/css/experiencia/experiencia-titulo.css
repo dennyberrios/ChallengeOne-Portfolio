@@ -1,0 +1,12 @@
+.experiencia__titulo {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+@media (max-width: 768px) {
+    .experiencia__titulo {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

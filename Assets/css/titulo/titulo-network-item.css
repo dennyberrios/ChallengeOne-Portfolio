@@ -1,0 +1,24 @@
+.titulo__network__item {
+    margin-top: 1rem;
+    margin-right: 1.3rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.titulo__network__item > a {
+    text-decoration: none;
+    color: var(--cor-de-texto);
+    display: flex;
+    align-items: center;
+}
+
+.titulo__network__item > a > img {
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .titulo__network__item {
+        margin-right: 1rem;
+    }
+}
