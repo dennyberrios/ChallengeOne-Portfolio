@@ -7,6 +7,11 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    cursor: pointer;
+}
+
+.experiencia__botao--repo:active {
+    background-color: var(--cor-de-borda-botao-escuro);
 }
 
 @media (max-width: 768px) {

@@ -4,9 +4,13 @@
     --cor-de-fundo-azul-claro: #EAF2FD;
     --cor-de-texto: #464646;
     --cor-de-borda-botao: #2A7AE4;
+    --cor-de-borda-botao-escuro: #0c66db;
     --font-raleway: 'Raleway';
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     box-sizing: border-box;
